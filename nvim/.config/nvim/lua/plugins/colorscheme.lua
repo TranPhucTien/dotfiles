@@ -32,16 +32,7 @@ return {
         barbar = false,
         bufferline = false,
         dropbar = false,
-        -- v-barbar/bufferline/dropbar là các plugin tabline/statusline tương tự
       },
-      -- Custom nhóm highlight
-      -- Custom logic sau khi setup
-      custom_highlights = function(colors)
-        -- Ví dụ: đặt màu cho dòng tìm kiếm (Search)
-        return {
-          Search = { fg = colors.text, bg = colors.yellow },
-        }
-      end,
     })
 
     -- Áp dụng theme
