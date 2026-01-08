@@ -1,0 +1,43 @@
+return {
+  --   {
+  --     "3rd/image.nvim",
+  --     build = false, -- Không cần build nếu cài qua rock bên dưới, nhưng cứ để false cho an toàn
+  --     opts = {
+  --       backend = "kitty", -- WezTerm hỗ trợ tốt giao thức của Kitty
+  --       integrations = {
+  --         markdown = {
+  --           enabled = true,
+  --           clear_in_insert_mode = false,
+  --           download_remote_images = true,
+  --           only_render_image_at_cursor = false,
+  --           filetypes = { "markdown", "vimwiki", "html" },
+  --         },
+  --         neorg = {
+  --           enabled = true,
+  --           clear_in_insert_mode = false,
+  --           download_remote_images = true,
+  --           only_render_image_at_cursor = false,
+  --           filetypes = { "norg" },
+  --         },
+  --       },
+  --       max_width = nil,
+  --       max_height = nil,
+  --       max_width_window_percentage = nil,
+  --       max_height_window_percentage = 50, -- Chiều cao tối đa 50% cửa sổ
+  --       window_overlap_clear_enabled = false,
+  --       editor_only_render_when_focused = false,
+  --       tmux_show_only_in_active_window = false,
+  --       hijack_file_patterns = { "*.png", "*.jpg", "*.jpeg", "*.gif", "*.webp" }, -- Các đuôi file sẽ tự mở
+  --     },
+  --     -- Quan trọng: Cần cài thêm magick rock
+  --     dependencies = {
+  --       {
+  --         "vhyrro/luarocks.nvim",
+  --         priority = 1001, -- Load cái này đầu tiên
+  --         opts = {
+  --           rocks = { "magick" },
+  --         },
+  --       },
+  --     },
+  --   },
+}

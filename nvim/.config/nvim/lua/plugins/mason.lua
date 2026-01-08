@@ -6,6 +6,7 @@ return {
       "typescript-language-server", -- TS/JS Language Server
       "html-lsp", -- HTML LSP (cần cho React/JSX)
       "json-lsp",
+      "emmet-language-server",
 
       -- Formatting (Prettier là chuẩn cho JS/TS)
       "prettier",
